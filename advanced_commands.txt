@@ -32,3 +32,12 @@ i
 o
 dd
 : w
+echo 'string' >> fileName.txt
+cat fileName >> brandNewFile
+pbpaste > testing_my_knowledge1.txt
+grep bengal cats.txt > bengal_cats.txt
+grep -A 5 string
+grep -B 5 string
+grep -C 5 string
+ls -l . | wc -l
+wc fileNamme
