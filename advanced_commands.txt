@@ -1,0 +1,34 @@
+cat combined | less
+ls -lA | less
+cat combined > newCombined 
+ls *.txt
+ls new*.txt
+ls *
+ls *n*
+find . -name "*.txt" -print 
+grep binary *.txt
+wc longText.txt
+find ~ -name "*.txt" -print | grep README | wc -l
+ls -l
+chmod u+w readme.txt
+chmod a-rx readme.txt
+$ which ruby 
+./hello.rb 
+rm -rf ./*
+sudo rm inaccessibleFile 
+HOME=/Users/charlotte
+$ echo $HOME /users/charlotre
+echo "Hello, world" > hello.txt
+$ echo $PATH
+rvm use version_no
+export SEASON=winter
+echo $SEASON
+export PATH=$PATH:/Users/charlotte
+echo "export SEASON=winter" >> ~/.bash_profile
+ps x
+ps x | grep bash
+vi myFile
+i
+o
+dd
+: w
