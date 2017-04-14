@@ -1,0 +1,32 @@
+ls -lA
+cd ..
+touch filename.txt
+mkdir DirectoryName
+rmdir DirectoryName 
+rm filename.txt
+rm -r DirectoryContainingStuff
+rm -i
+rm -f
+cp oldFile newFile 
+mv mv newFile NewFolder/newFile
+mv newFile .../newFile 
+cd SomeDir mv ../newFile newFile ls
+mv newFile newerFile
+cat someText
+cat > someMoreText
+cat someText someMoreText > combined 
+cat combined 
+less longText.txt
+head -3 longText.txt
+tail -3 longText.txt
+tail -f log.txt
+man ls
+cat combined | less
+ls -lA | less
+cat combined > newCombined 
+ls *.txt
+ls new*.txt
+ls *
+ls *n*
+find . -name "*.txt" -print 
+grep binary *.txt
